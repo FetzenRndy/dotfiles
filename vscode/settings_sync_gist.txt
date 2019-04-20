@@ -1,0 +1,3 @@
+// Link to the settings sync gist.
+
+https://gist.github.com/fetzenrndy/7e64c22c0397850fac5a3b42309ca6d8

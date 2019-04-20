@@ -1,0 +1,14 @@
+" Use jj to enter normal mode
+imap jj <Esc>
+set timeoutlen=1000
+
+" Disable the windows bell
+set visualbell
+set noerrorbells
+
+" Disable Arrow-keys.
+for prefix in ['i', 'n', 'v']
+  for key in ['<Up>', '<Down>', '<Left>', '<Right>']
+    exe prefix . "noremap " . key . " <Nop>"
+  endfor
+endfor
